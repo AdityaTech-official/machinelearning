@@ -1,0 +1,21 @@
+# Core UI
+streamlit==1.64.0
+
+# AI / LLM integration (provider-agnostic adapter in services/llm_service.py)
+langchain-core==1.6.5
+langchain-openai==1.6.6
+openai==3.20.0
+
+# Structured output validation
+pydantic==2.13.5
+
+# Resume parsing
+pypdf==6.19.0
+python-docx==1.2.0
+
+# Configuration
+python-dotenv==1.2.3
+
+# Testing
+pytest==9.1.1
+reportlab==5.0.1
